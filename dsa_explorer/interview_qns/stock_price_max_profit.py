@@ -6,10 +6,6 @@ You need to find the maximum profit you can make by buying and selling the stock
 """
 
 def max_profit(prices):
-    """
-    Function to calculate the maximum profit from stock prices with a 5-second gap between buy and sell.
-    :param prices: List of stock prices
-    """
     maxProf = 0
     minSoFar = prices[0]
 
